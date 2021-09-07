@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.menu-item {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+.title {
+    margin-right: auto;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+button {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #ccc;
+    background-color: #4676D7;
+    color:#fff;
+    padding :8px 16px;
+    font-size: 16px;
+    min-width: 100px;
+}
+
+button:hover {
+    background-color: #1d49aa;
+}
+
+button:focus {
+    outline: none;
+}
+
+section {
+    border: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    min-height: 100vh;
+    background-image: url(BSbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
