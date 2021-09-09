@@ -1,5 +1,8 @@
 body {
     text-align: center;
+    border-top: 4px solid #22ac38;
+    margin:0;
+    padding:0;
 }
 
 header {
@@ -9,14 +12,53 @@ header {
     padding-left: 10px;
 }
 
+.nav {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .menu-item {
     display: inline-block;
     list-style: none;
-    padding: 10px;
+    padding:10px;
+}
+
+a {
+    position:relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+}
+
+a::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #22ac38;
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    transition: 0.2s;
+    opacity: 0;
+}
+
+a:hover::after {
+    bottom: -4px;
+    opacity: 1;
+    visibility: visible; 
 }
 
 .title {
     margin-right: auto;
+    color: black;
 }
 
 img {
@@ -47,16 +89,11 @@ button:focus {
 }
 
 section {
-    border: solid;
-    border-width: 2px;
-    border-radius: 8px;
-    border-color: gray;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     padding: 16px;
-    min-height: 100vh;
-    background-image: url(BSbackground.jpg);
+    background: linear-gradient(180deg, #68F29F 0%, rgba(104, 242, 159, 0.8) 71.35%, rgba(104, 242, 159, 0) 100%);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
