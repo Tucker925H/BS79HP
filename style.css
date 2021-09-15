@@ -12,6 +12,14 @@ header {
     padding-left: 10px;
 }
 
+footer {
+    height: 1000px;
+}
+
+main {
+    height: 1000px;
+}
+
 .nav {
     text-align: center;
 }
@@ -27,14 +35,20 @@ ul {
     padding:10px;
 }
 
-a {
+.top_tag {
     position:relative;
     display: inline-block;
     text-decoration: none;
     color: #333;
+    text-align: center;
 }
 
-a::after {
+.news {
+    float: right;
+    text-decoration: none;
+}
+
+.top_tag::after {
     content: "";
     display: block;
     width: 80px;
@@ -50,7 +64,7 @@ a::after {
     opacity: 0;
 }
 
-a:hover::after {
+.top_tag:hover::after {
     bottom: -4px;
     opacity: 1;
     visibility: visible; 
@@ -69,10 +83,10 @@ img {
 }
 
 .background {
-    padding: 400px;
+    padding: 360px;
     background-image: url(BS-background.png);
     background-repeat: no-repeat;
-    border-bottom: 4px solid #f8b500;
+    border-bottom: 4px solid #22ac38;
 }
 
 section {
@@ -83,15 +97,33 @@ section {
     padding: 32px;
 }
 
-.news dt{
+.span_left {
     float: left;
+    width: 450px;
+    margin-left: 50px;
 }
-  
-.news dd{
-    margin-left: 80px;
+
+.span_right {
+    float: left;
+    width: 450px;
+    margin-left: 50px;
 }
 
 h3 {
-    color: #22ac38;
-    font-weight: bold;
+    margin-left: 20px;
+    color: #f8b500;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
+dl dt {
+    float: left;
+}
+  
+dl dd {
+    margin-left: 150px;
 }
