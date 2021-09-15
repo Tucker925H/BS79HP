@@ -12,12 +12,14 @@ header {
     padding-left: 10px;
 }
 
-footer {
-    height: 1000px;
+main {
+    overflow: hidden;
 }
 
-main {
-    height: 1000px;
+footer {
+    text-align: center;
+    background-color:#c9f3cf;
+    height: 100px;
 }
 
 .nav {
@@ -97,6 +99,11 @@ section {
     padding: 32px;
 }
 
+.news_main {
+    overflow: hidden;
+    margin:0 auto;
+}
+
 .span_left {
     float: left;
     width: 450px;
@@ -118,12 +125,28 @@ p {
     font-size: 16px;
 }
 
-
-
 dl dt {
     float: left;
+    padding: 16px 0px;
+    border-top: 1px solid #cbbeb7;
 }
   
 dl dd {
-    margin-left: 150px;
+    padding: 16px 0px 16px 120px;
+    margin: 0px;
+    border-top: 1px solid #cbbeb7;
 }
+
+.row {
+    overflow: hidden;
+    margin:0 auto;
+    width: 75%;
+}
+
+.news_bottom {
+    border-bottom: 1px solid #cbbeb7;
+}
+
+ul.footer-menu li {
+    display: inline;
+    }
