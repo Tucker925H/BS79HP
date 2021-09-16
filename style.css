@@ -37,6 +37,11 @@ ul {
     padding:10px;
 }
 
+.top_page {
+    text-decoration: none;
+    color: #333;
+}
+
 .top_tag {
     position:relative;
     display: inline-block;
@@ -96,7 +101,6 @@ section {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding: 32px;
 }
 
 .news_main {
