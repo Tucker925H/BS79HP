@@ -37,6 +37,18 @@ ul {
     padding:10px;
 }
 
+.perfect-circle {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: #0091EA;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 .top_page {
     text-decoration: none;
     color: #333;
@@ -89,11 +101,16 @@ img {
     border-radius: 50%;
 }
 
+.find {
+    position: relative;
+}
+
 .background {
     padding: 360px;
     background-image: url(BS-background.png);
     background-repeat: no-repeat;
     border-bottom: 4px solid #22ac38;
+    position: relative;
 }
 
 section {
